@@ -11,6 +11,7 @@ module.exports = merge(config, {
         compress: true,
         watchContentBase: true,
         overlay: true,
-        stats: 'errors-only'
+        stats: 'errors-only',
+        host: '0.0.0.0'
     },
 });

@@ -4,7 +4,7 @@
   "description": "Init Project tree React-Typescript ",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --config ./webpack/development.js --hot",
+    "dev": "webpack-dev-server --inline --config ./webpack/development.js --hot",
     "prod": "webpack --config ./webpack/production.js"
   },
   "keywords": [

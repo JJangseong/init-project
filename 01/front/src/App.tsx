@@ -7,7 +7,7 @@ const App = observer(() => {
 
     return (
         <div>
-            <span>hellooooo1</span>
+            <span>hellooooo</span>
             <h1>{counterStore.count}</h1>
             <button onClick={() => counterStore.count++}>+</button>
         </div>
