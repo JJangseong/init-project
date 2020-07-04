@@ -5,7 +5,8 @@
 2. Mobx
 3. Typescript
 4. Webpack
-5. DockerFile
+5. Nginx
+6. DockerFile
 
 ## 사용법
 
