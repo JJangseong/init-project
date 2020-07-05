@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    // resolve modules as you would expect
+    "moduleResolution": "node",
+    // leave imports as they are
+    "module": "commonjs",
+    // do not transpile stuff like classes, async/await, ...
+    "target": "es5",
+    "charset": "utf8",
+    "lib": [
+      "es2015", "es6", "esnext", "dom"
+    ],
+    "allowJs": true,
+    // produce a source map
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "paths": {
+      "api/*": ["./src/api/*"],
+      "config/*": ["./src/config/*"],
+      "jobs/*": ["./src/jobs/*"],
+      "loaders/*": ["./src/loaders/*"],
+      "models/*": ["./src/models/*"],
+      "services/*": ["./src/services/*"],
+      "subscribers/*": ["./src/subscribers/*"],
+      "types/*": ["./src/types/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "keyofStringsOnly": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/**/*"
+  ]
+}
