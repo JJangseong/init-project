@@ -6,7 +6,6 @@ import AboutPage from "./pages/AboutPage";
 import CountPage from "./pages/CountPage";
 import LayoutComponent from "components/layout/Layout.component";
 
-
 const App = observer(() => {
     return (
         <LayoutComponent>

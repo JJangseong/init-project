@@ -3,3 +3,5 @@
 /*/.idea/
 /01/front/node_modules/
 /*/*/node_modules/
+!/01/front/dist/
+/*/*/*/dist

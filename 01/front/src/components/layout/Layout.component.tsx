@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 type LayoutPropsType = {
 
@@ -11,14 +11,14 @@ const LayoutComponent: React.FunctionComponent<LayoutPropsType> = ({children}) =
             <div>
                 <h1>Header</h1>
                 <ul>
-                    <li>
-                        <Link to='/'>HOME</Link>
+                    <li >
+                        <NavLink to='/' activeStyle={{fontSize: "20rem"}}>HOME</NavLink>
                     </li>
                     <li>
-                        <Link to='/count'>카운트 예제</Link>
+                        <NavLink to='/count' activeStyle={{fontSize: "20rem"}}>카운트 예제</NavLink>
                     </li>
                     <li>
-                        <Link to='/about'>ABOUT</Link>
+                        <NavLink to='/about' activeStyle={{fontSize: "20rem"}}>ABOUT</NavLink>
                     </li>
                 </ul>
             </div>
